@@ -21,5 +21,6 @@ public static void main(String[] args) throws InterruptedException {
 	driver.findElement(By.xpath(".//label[text()='Male']")).click();
 	Thread.sleep(2000);
 	driver.findElement(By.xpath(".//label[text()='Sunday']")).click();
+	
 }
 }

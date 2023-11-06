@@ -19,7 +19,6 @@ public static void main(String[] args) throws InterruptedException {
 	driver.findElement(By.name("company")).sendKeys("Qspider");
 	Thread.sleep(2000);
 	driver.findElement(By.name(".//select[@name='company_size']")).click();
-	
 //	size.sendKeys(Keys.ARROW_DOWN );
 //	Thread.sleep(2000);
 //	size.sendKeys( Keys.ARROW_DOWN);
